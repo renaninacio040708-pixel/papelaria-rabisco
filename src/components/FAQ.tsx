@@ -67,7 +67,7 @@ export function FAQ() {
                       transition={{ duration: 0.25, ease: "easeOut" }}
                       className="overflow-hidden"
                     >
-                      <p className="px-6 pb-6 text-[15px] leading-[1.6] text-ink/80">{item.a}</p>
+                      <p className="max-w-prose px-6 pb-6 text-[15px] leading-[1.6] text-ink/80">{item.a}</p>
                     </motion.div>
                   )}
                 </AnimatePresence>

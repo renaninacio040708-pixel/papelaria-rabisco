@@ -3,7 +3,7 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const pill = cva(
-  "inline-flex items-center justify-center gap-2 rounded-[47px] border-2 border-ink font-sans font-semibold text-[15px] transition-transform duration-200 ease-out hover:-translate-y-0.5 active:translate-y-0 disabled:pointer-events-none disabled:opacity-45 disabled:hover:translate-y-0",
+  "inline-flex items-center justify-center gap-2 rounded-[47px] border-2 border-ink font-sans font-semibold text-[15px] transition-transform duration-200 ease-out active:translate-y-0 disabled:pointer-events-none disabled:opacity-45 disabled:hover:translate-y-0 [@media(hover:hover)_and_(pointer:fine)]:hover:-translate-y-0.5",
   {
     variants: {
       tone: {
